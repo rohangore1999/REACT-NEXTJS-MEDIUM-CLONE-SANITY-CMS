@@ -3,6 +3,7 @@ REACT-NEXTJS-MEDIUM-CLONE-SANITY-CMS using NEXTJS, SANITY CMS, SANITY-GROQ, TAIL
 
 DEPLOYED ON VERCEL ~ https://react-nextjs-medium-clone-sanity-cms-ge63b4xm5-rohangore1999.vercel.app/ 
 
+SANITY CMS Portal(hosted on SANITY) ~ https://sanity-react-medium-clone.sanity.studio/
 
 -------------------------------------------------------------------------
 
