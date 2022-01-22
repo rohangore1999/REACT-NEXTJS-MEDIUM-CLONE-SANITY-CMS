@@ -1,3 +1,11 @@
+REACT-NEXTJS-MEDIUM-CLONE-SANITY-CMS using NEXTJS, SANITY CMS, SANITY-GROQ, TAILWINDCSS.
+
+
+DEPLOYED ON VERCEL ~ https://react-nextjs-medium-clone-sanity-cms-ge63b4xm5-rohangore1999.vercel.app/ 
+
+
+-------------------------------------------------------------------------
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
