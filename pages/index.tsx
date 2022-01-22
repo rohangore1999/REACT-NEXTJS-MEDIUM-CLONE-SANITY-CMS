@@ -19,6 +19,15 @@ export default function Home({ posts }: Props) {
       <Head>
         <title>Medium - Clone</title>
         <link rel="icon" href="/favicon.ico" />
+
+        {/* for post picture */}
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:image" content="/mediumlogo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta property="og:description" content="" />
+        <meta name="twitter:image:alt" content="" />
       </Head>
 
       <Header />
