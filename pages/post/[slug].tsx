@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { GetStaticProps } from 'next';
 import React, { Children, useState } from 'react';
 import Header from '../../components/Header';
@@ -48,6 +49,20 @@ function Post({ post }: Props) {
     console.log(post);
     return (
         <main>
+            <Head>
+                <title>Medium - {post.title}</title>
+                <link rel="icon" href="/favicon.ico" />
+
+                {/* for post picture */}
+                <meta property="og:title" content="" />
+                <meta property="og:type" content="" />
+                <meta property="og:image" content="/mediumlogo.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+
+                <meta property="og:description" content="" />
+                <meta name="twitter:image:alt" content="" />
+            </Head>
+
             <Header />
 
             <img className='w-full h-40 object-cover' src={urlFor(post.mainImage).url()!} alt='' />
